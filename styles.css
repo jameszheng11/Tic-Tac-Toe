@@ -1,5 +1,15 @@
 body {
     text-align: center;
+    background-color: #00626f;
+}
+
+header {
+    margin: 10px auto;
+    width: 50vw;
+}
+
+header, .newGame, .score-board, .score-board th, .score-board td, .boxes {
+    background-color: #c4fff7;
 }
 
 .content-wrapper {
@@ -19,7 +29,7 @@ body {
 }
 
 .score-board, .score-board th, .score-board td {
-    border: 1px solid black;
+    border: 1px solid #005f56;
 }
 
 th {
@@ -31,4 +41,5 @@ th {
     width: 100px;
     font-size: 40px;
     font-weight: bold;
+    color: #005f56;
 }

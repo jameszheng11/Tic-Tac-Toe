@@ -14,9 +14,11 @@
                 <h1>This is a game of Tic Tac Toe</h1>
             </header>
             <div>
-                <button type="button" onclick="reset()">New Game</button>
+                <!-- Button that will reset the game state -->
+                <button type="button" onclick="reset()" class="newGame">New Game</button>
             </div>
             <div class="game-wrapper">
+                <!-- Table to contain all of the game buttons -->
                 <table class="game">
                     <tr>
                         <td><button type="button" onclick="buttonClick(this)" class="boxes"></button></td>
@@ -35,6 +37,7 @@
                     </tr>
                 </table>
                 <table class="score-board">
+                    <!-- Table to display the game stats -->
                     <thead>
                         <th>Player Score</th>
                         <th>Computer Score</th>
